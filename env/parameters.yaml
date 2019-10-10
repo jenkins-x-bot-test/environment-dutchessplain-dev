@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:dutchessplain/adminUser:password
+  username: admin
+dashboardAuthID: vault:dutchessplain:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:dutchessplain:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:dutchessplain/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:dutchessplain/prow:hmacToken
